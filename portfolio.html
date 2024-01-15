@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#query1").show(); // Set initial state to visible
+
+            setInterval(function () {
+                $("#query1").toggle();
+            }, 1000);
+        });
+    </script>
+    
+</head>
+
+<body>
+    <div class="nav">
+        <div class="leftnav">
+            portfolio
+        </div>
+        <div class="rightnav">
+            <div class="inside"><a href="portfolio.html">Home</a></div>
+            <div class="inside"><a href="#about">About</a></div>
+            <div class="inside"><a href="portfolio.html">Skills</a></div>
+            <div class="inside"><a href="portfolio.html">Projects</a></div>
+            <div class="inside"><a href="portfolio.html">Contacts</a></div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="main1">
+            <p class="one">Hello, <span style="color:aqua">It's Me</span></p>
+            <p class="two">PRAJAKTA A NAIK</p>
+            <p class="three">I'm a Engineering student who is <br />passionate in <p id="query1">Web Development</p></p>
+            <div>
+                <br />
+                <br />
+                <a href="mailto:naikprajakta6112@gmail.com"><i class="fa-solid fa-envelope"></i></a>&nbsp;&nbsp;
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>&nbsp;&nbsp;
+                <a href="portfolio.html"><i class="fa-solid fa-phone"></i>7676597707</a>
+                <br />
+                <br />
+                <div class="cv"><a href="resume.php">Download CV</a></div>
+            </div>
+        </div>
+        <div class="main2">
+            <img src="./blue dress.jpg" height="400px" width="400px" id="blue">
+        </div>
+    </div>
+    <!-- <hr> -->
+    
+    <div class="about" id="about">
+        <h1><span style="color:aqua">About Me</span> </h1>
+        <div class="about1"></div>
+        <div class="about2"><h2>I'm a smart working engineering student specialized in <br/>Computer Science Engineering.I have Interest in subjects like SQL,python,CyberSecurity.<br/>I have developed Two projects Recipe Sharing Platform,Java GUI Based MalNutririon Detector</h2></div>
+    </div>
+<!-- <hr> -->
+
+<center><h1><span style="color:aqua">My Skills</span></h1></center>
+<p><h1><i class="fa-brands fa-html5"></i>HTML</h1></p>
+<div class="skill">
+    <div class=" skill1 html">80%</div>
+</div>
+<p><h1><i class="fa-brands fa-css3-alt"></i>CSS</h1></p>
+<div class="skill">
+    <div class="skill1 python">50%</div>
+</div>
+<p><h1><i class="fa-brands fa-php"></i>PHP</h1></p>
+<div class="skill">
+    <div class="skill1 php">60%</div>
+</div>
+<p><h1><i class="fa-solid fa-database"></i>SQL</h1></p>
+<div class="skill">
+    <div class="skill1 sql">40%</div>
+</div>
+<p><h1><i class="fa-brands fa-python"></i>PYTHON</h1></p>
+<div class="skill">
+    <div class="skill1 python">50%</div>
+</div>
+<p><h1><i class="fa-brands fa-java"></i>JAVA</h1></p>
+<div class="skill">
+    <div class="skill1 java">65%</div>
+</div>
+<br/><br/>
+<CENTER><h1><span style="color:aqua">Projects</span></h1></CENTER>
+<div class="project">
+    <div><h1><span style="color:aqua">Wedding Planner</span></h1><div class="project1"><center></center></div></div>
+  
+    <div><h1><span style="color:aqua">Recipie Sharing</span></h1><div class="project2"></div></div>
+    
+</div>
+<center><h1><span style="color:aqua">My Services</span></h1></center>
+<div class="ser">
+    
+    <div class="ser1">
+        <h2><center>Web Development</center></h2>
+        <br/><br/>
+        <p><center>Web development refers to the process of building and maintaining websites or web applications.</center>
+        </p>
+    </div>
+    <div class="ser2"><h2><center>UI/UX</center></h2>
+        <br/><br/>
+        <p><center>UI (User Interface) design focuses on the visual and interactive elements of a product, aiming to make it aesthetically pleasing and easy to use.</center>
+        </p>
+    </div>
+    <div class="ser3">
+        <h2><center>Software Development</center></h2>
+        <br/><br/>
+        <p><center>software development involves the process of creating, testing, and maintaining software applications</center>
+        </p>
+    </div>
+</div>
+
+<center>
+    <div class="contact">
+        <h1><span style="color:aqua">Contact Me</span></h1>
+        <a href="mailto:naikprajakta6112@gmail.com"><i class="fa-solid fa-envelope"></i></a>naikprajakta6112@gmail.com<br/>
+        <a href=""><i class="fa-brands fa-linkedin"></i></a><br/>
+        <a href="portfolio.html"><i class="fa-solid fa-phone"></i>7676597707</a>
+    </div>
+</center>
+</body>
+
+</html>
